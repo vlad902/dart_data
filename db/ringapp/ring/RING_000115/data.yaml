@@ -1,9 +1,13 @@
 citation:
 - CITE_000335
 description: Let $L$ be a field, $K=L((Y))$, and define an endomorphism of $K$ by
-  $\alpha(Y)=Y^n$.  Let $S=K[X;\alpha]$ be the twisted power series with $Xk:=\alpha(k)X$.
+  $\alpha(Y)=Y^n$ for some $n\geq 2$.  Let $S=K[[X;\alpha]]$ be the twisted power series with $Xk:=\alpha(k)X$.
   The ring is $R=T(S, E)$, where $E$ is $S$'s minimal left cogenerator. $E$ can be
-  realized as the set $[X^{-1}]$... ( to be completed)
+  realized as the set $[X^{-1}]K$ of polynomials $\sum_{i=0}^m X^{-i}k_i$ with $k_i\in
+  K$ and $kX^{-i}=X^{-i}\alpha^i(k)$. Choosing an $\alpha(K)$-linear projection $\pi$ of $K$ onto $\alpha(K)$
+  and setting $\beta=\alpha^{-1}\pi$, the bimodule structure is given by $(k_jX^j)(X^{-i}k_i)=X^{-(i-j)}\alpha^{i-j}(k_j)k_i$
+  and $(X^{-i}k_i)(k_hX^h)=X^{-(i-h)}\beta^h(k_ik_h)$, where both products are $0$
+  if $i<j$, resp. $i<h$.
 is_commutative: false
 keywords:
 - KWD_000012

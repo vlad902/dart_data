@@ -1,12 +1,12 @@
 {% extends 'base.html' %}
 
-{% block title %}2-truncated Witt vectors over $\Bbb F_2((t))${% endblock %}
+{% block title %}2-truncated Witt vectors over $\overline{\Bbb F_2((t))}${% endblock %}
 
 {% block content %}
 
 <div class="container">
   <div class="col-md-8 content">
-    <h1>2-truncated Witt vectors over $\Bbb F_2((t))$</h1>
+    <h1>2-truncated Witt vectors over $\overline{\Bbb F_2((t))}$</h1>
 
     <div class="panel panel-default">
       <div class="panel-body">
@@ -16,7 +16,7 @@
           polynomials $\alpha, \pi \in S^{\Bbb N}$ such that
           $\alpha^{(n)} = x^{(n)} + y^{(n)}$ and $\pi^{(n)} = x^{(n)} y^{(n)}$ for $x = (x_i)$, $y = (y_i)$
           and every $n \ge 0$. In particular: $\alpha_0 = x_0 + y_0$, $\pi_0 = x_0 y_0$;
-          $\alpha_1 = x_1 + y_1 - \sum\limits_{i = 1}^{p-1} {p\choose i} x_0^i y_0^{p-i}$,
+          $\alpha_1 = x_1 + y_1 - \sum\limits_{i = 1}^{p-1} \frac{1}{p}{p\choose i} x_0^i y_0^{p-i}$,
           $\pi_1 = x_0^p y_1 + y_0^p x_1 + p x_1 y_1$.</p>
 
           <p>The $(n+1)$-truncated ring $W^{n+1}$ is the Cartesian product $R^{n+1}$,

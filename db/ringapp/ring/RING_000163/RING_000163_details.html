@@ -19,7 +19,7 @@
           <ul>
               <li>$\Sigma_{i+1} = \Sigma_i \sqcup \{ x_S, y_S: S \subset \Sigma_i, |S| < \infty\}$ (for every *finite subset* of old variables, adjoin a *pair* of new variables);</li>
               <li>$A_{i + 1} = K\langle \Sigma_{i + 1} \rangle$;</li>
-              <li>$C_{i + 1} = C_i \cup \{ x_S a_i, x_S b_i, c_i y_S, d_i y_S, x_S s, s y_S: S \in \Sigma_{i + 1} \setminus \Sigma_i, s \in S \}$,</li>
+              <li>$C_{i + 1} = C_i \cup \{ x_S a_j, x_S b_j, c_j y_S, d_j y_S, x_S s, s y_S: S \subset \Sigma_i, |S| < \infty, j \in \Bbb N \cup \{ 0 \}, s \in S \}$,</li>
               <li> and $B_{i + 1} = A_{i + 1}/(C_{i + 1})$.</li>
           </ul>
           <p>The ring $R = R_{163}$ is the direct limit $\bigcup\limits_{i=0}^\infty B_i$.</p>

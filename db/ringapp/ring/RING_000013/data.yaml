@@ -1,6 +1,6 @@
 citation: []
 description: The ring of $n \times n$ matrices over a finite field $F$ whose entries
-  below the diagonal are all zero.
+  below the diagonal are all zero, $n>1$.
 is_commutative: false
 keywords:
 - KWD_000015

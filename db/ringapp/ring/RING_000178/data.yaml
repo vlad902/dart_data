@@ -6,6 +6,6 @@ is_commutative: true
 keywords:
 - KWD_000073
 krull_dim: (unknown)
-name: 2-truncated Witt vectors over $\Bbb F_2((t))$
+name: 2-truncated Witt vectors over $\overline{\Bbb F_2((t))}$
 notes: null
 optional_template: ''

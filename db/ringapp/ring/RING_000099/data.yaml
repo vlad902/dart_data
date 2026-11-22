@@ -1,7 +1,7 @@
 citation: []
 description: By Krull's theorem for valuation rings, we may take $n>1$ and $G=\mathbb
   Z^n$ with lexicographic order to form a totally ordered Abelian group, and the resulting
-  valuation domain $R$ is the ring. In this construction, is is possible to make choices
+  valuation domain $R$ is the ring. In this construction, choices are made
   to ensure the resulting ring is countable.
 is_commutative: true
 keywords: []
