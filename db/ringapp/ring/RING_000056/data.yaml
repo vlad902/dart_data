@@ -3,7 +3,9 @@ citation:
 - CITE_000085
 description: Let $D$ be a countable, existentially closed division ring over a field
   $F$. Let $S=D\otimes_F F(x)$. Let $R$ be the trivial extension $T(S,D)$ of $S$ by
-  the $S$-module $D$
+  the $S$-bimodule $D$, where, for a transcendental $a\in D$ and an $F$-algebra embedding
+  $\alpha:D\to C_D(a)$, $d\otimes p$ acts on $D$ by $w\mapsto\alpha(d)p(a)w$ on the left
+  and by $w\mapsto p(a)wd$ on the right
 is_commutative: false
 keywords:
 - KWD_000001

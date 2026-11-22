@@ -1,6 +1,6 @@
 citation:
 - CITE_000591
-description: Using $M$ from the construction of <a href="/rings/ring/171">$S=R_{171}$</a>,
+description: Using $M=eS$, where $e$ is the universal idempotent from the construction of <a href="/rings/ring/171">$S=R_{171}$</a>,
   the required ring is  $R=\mathrm{End}(M_S\oplus S_S)$.
 is_commutative: false
 keywords:
