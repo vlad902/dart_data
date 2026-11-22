@@ -1,4 +1,6 @@
-definition: The class of rings with the property forms an <a href="https://en.wikipedia.org/wiki/Variety_(universal_algebra)">equational
-  class</a>
+definition: The class of rings with the property forms an equational class, in the
+  sense of <a href="https://arxiv.org/abs/1810.13012">Higgins and Jackson</a>, that
+  is, it is the class of rings satisfying a set of sentences, each consisting of a
+  quantifier prefix followed by a finite conjunction of equations.
 name: forms an equational class
 relation_type: NONE
